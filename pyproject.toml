@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "PrimePaymentApi"
+version = "0.1.0"
+description = "PrimePaymentApi"
+authors = ["NotBupyc <notbupyc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+aiohttp = "^3.9.3"
+requests = "^2.31.0"
+pydantic = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
